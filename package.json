@@ -1,0 +1,15 @@
+{
+  "name": "brightpath-academy",
+  "version": "2.0.0",
+  "description": "BrightPath Academy — Full Stack School Management System (Nairobi, Kenya)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server/index.js",
+    "dev": "node --watch --experimental-sqlite server/index.js",
+    "test": "node --experimental-sqlite test.js"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "keywords": ["kenya", "school", "mpesa", "education", "cbc", "nairobi"],
+  "dependencies": {},
+  "devDependencies": {}
+}
